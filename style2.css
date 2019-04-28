@@ -1,0 +1,216 @@
+body {
+  background-image: url(wall.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: LightSlateGrey;
+}
+
+.header a:hover {
+	color: white;
+}
+		
+li {
+	font-family: Apple Chancery, cursive;
+	background: WhiteSmoke;
+	padding: 25px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px grey solid;
+	font-weight: bold;
+	box-shadow: 5px 10px 8px lightgrey;
+	border-radius: 15px;
+}
+	
+.header li:hover {
+	background-color: LightSteelBlue;
+	border: 5px white solid;
+}
+
+.about {
+	padding: 40px;
+	background-color: Beige;
+	border: 10px white solid;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Courier New, monospace;
+	color: LightSlateGrey;
+}
+
+h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.picde {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	margin-top: 15px;
+}
+
+.slideshow {
+	position: relative;
+	border: 15px Azure solid;
+	height: 50vh;
+	width: 45vw;
+	overflow: hidden;
+	background-color: Azure;
+}
+
+.slide {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+
+.slide1 {
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite;
+}
+
+.slide2 {
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 5s;
+}
+
+.slide3 {
+	background-image: url(3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 10s;
+}
+
+.slide4 {
+	background-image: url(4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 15s;
+}
+
+@keyframes disolveRound {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.description {
+	background-color: BlanchedAlmond;
+	border: 33px BlanchedAlmond solid;
+	box-shadow: 5px 10px 8px lightgrey;
+	height: 46vh;
+	width: 45vw;
+}
+
+h2 {
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: Chocolate;
+	font-size: 25px;
+}
+
+h3 {
+	text-align: center;
+	color: DarkSlateGrey;
+	font-family: Arial;
+}
+	
+p {
+	text-align: justify;
+	font-size: 20px;
+	font-family: Brush Script Std, cursive;
+}
+
+.title {
+	margin-top: 15px;
+	padding: 40px;
+	background-color: Beige;
+	border: 10px white solid;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+h4 {
+	font-size: 40px;
+	font-family: Courier New, monospace;
+	color: LightSlateGrey;
+}
+
+h4:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.depic {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 40vh;
+	margin-top: 10px;
+	grid-gap: 10px;
+}
+
+.descrifounder {
+	background: BlanchedAlmond;
+	box-shadow: 5px 10px 8px lightgrey;
+	border: 33px BlanchedAlmond solid;
+}
+
+.picfounder {
+	background-color: Azure;
+	border: 20px Azure solid;
+	box-shadow: 5px 10px 8px lightgrey;
+	background-image: url(founder2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 600px;
+}
+
+.footer {
+	margin-top: 100px;
+	padding: 40px;
+	background-image: url(flower.jpg);
+	border-radius: 10px;
+	border: 5px SeaShell solid;
+	box-shadow: 5px 5px 5px grey;
+}

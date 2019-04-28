@@ -1,0 +1,234 @@
+body {
+  background-image: url(wall.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: LightSlateGrey;
+}
+
+.header a:hover {
+	color: white;
+}
+		
+li {
+	font-family: Apple Chancery, cursive;
+	background: WhiteSmoke;
+	padding: 25px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px grey solid;
+	font-weight: bold;
+	box-shadow: 5px 10px 8px lightgrey;
+	border-radius: 15px;
+}
+
+.header li:hover {
+	background-color: LightSteelBlue;
+	border: 5px white solid;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	background-position: center;
+}
+
+.picture1 {
+	background-image: url(rose2.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 60px;
+	background-color: Azure;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture2 {
+	background-image: url(tulips3.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 30px;
+	background-repeat: no-repeat;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture3 {
+	background-image: url(breath2.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-right: 60px;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+	
+.name {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 130px;
+	background-position: center;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}    
+
+h2 {
+	padding: 10px;
+	background-color: CornSilk;
+	text-align: center;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 20px;
+	border: 5px BurlyWood solid;
+	grid-gap: 30px;
+	color: maroon;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+h2:hover {
+	color: red;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	background-position: center;
+}
+
+.picture4 {
+	background-image: url(carnation.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 60px;
+	background-color: Azure;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture5 {
+	background-image: url(daisy2.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 30px;
+	background-repeat: no-repeat;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture6 {
+	background-image: url(sunflower2.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-right: 60px;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.name2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 130px;
+	background-position: center;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}    
+
+.container3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	background-position: center;
+}
+
+.picture7 {
+	background-image: url(hydra.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 60px;
+	background-color: Azure;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture8 {
+	background-image: url(mum.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-left: 30px;
+	background-repeat: no-repeat;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.picture9 {
+	background-image: url(lily2.jpg);
+	border: 10px LightBlue solid;
+	height: 45vh;
+	width: 35vh;
+	background-size: cover;
+	background-position: center;
+	margin-top: 70px;
+	margin-right: 60px;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+.name3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 130px;
+	background-position: center;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}    
+
+.footer {
+	margin-top: 30px;
+	padding: 40px;
+	background-image: url(flower.jpg);
+	border-radius: 10px;
+	border: 5px SeaShell solid;
+	box-shadow: 5px 5px 5px grey;
+}	
